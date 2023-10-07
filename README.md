@@ -1,3 +1,5 @@
+# A fork of the official whisper repository without the pytorch==2.0 requirement, for usage in https://github.com/oobabooga/text-generation-webui
+
 # Whisper
 
 [[Blog]](https://openai.com/blog/whisper)
