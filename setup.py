@@ -12,8 +12,8 @@ def read_version(fname="whisper/version.py"):
 
 
 requirements = []
-if sys.platform.startswith("linux") and platform.machine() == "x86_64":
-    requirements.append("triton==2.0.0")
+# if sys.platform.startswith("linux") and platform.machine() == "x86_64":
+#     requirements.append("triton==2.0.0")
 
 setup(
     name="openai-whisper",
